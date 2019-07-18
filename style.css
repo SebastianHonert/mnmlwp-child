@@ -1,0 +1,12 @@
+/*
+Theme Name: mnmlwp Child
+Theme URI: https://sebastianhonert.com/mnmlwp
+Description: A free, lightweight, and fast WordPress theme that can easily be turned into different page styles and layouts. It comes with a bunch of useful shortcodes and demo content. If you want to find out about the possibilities of this theme, please visit the theme website.
+Tags: one-column,two-columns,three-columns,four-columns,custom-menu,custom-logo,custom-header,translation-ready,featured-images,custom-colors,right-sidebar,footer-widgets,post-formats
+Author: Sebastian Honert
+Author URI: https://sebastianhonert.com
+Template: mnmlwp
+Version: 0.4
+*/
+
+@import url("../mnmlwp/assets/css/main.css");
