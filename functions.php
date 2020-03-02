@@ -5,14 +5,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-// Load translation files from child instead of the parent theme
-function mnmlwp_child_theme_locale()
-{
-    load_child_theme_textdomain( 'mnmlwp', get_stylesheet_directory() . '/languages' );
-}
-
-add_action( 'after_setup_theme', 'mnmlwp_child_theme_locale' );
-
 //Child Theme Functions
 function mnmlwp_child_enqueue_scripts()
 {
