@@ -5,7 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-//Child Theme Functions
+// Child Theme Functions
 function mnmlwp_child_enqueue_scripts()
 {
     wp_register_style( 'mnmlwp-child', get_stylesheet_directory_uri() . '/style.css'  );
